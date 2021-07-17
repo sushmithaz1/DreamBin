@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">vegies</string>
+    <string name="cart">Cart</string>
+
+    <style name="noActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/common_google_signin_btn_text_dark</item>
+        <item name="colorPrimaryDark">@color/common_google_signin_btn_text_dark</item>
+        <item name="colorAccent">@color/common_google_signin_btn_text_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".activities.Main2Activity">
+
+    <EditText
+        android:id="@+id/amount_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#F8F0F0"
+        android:textColor="#0C0B0B"
+        android:visibility="visible">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount_et"
+        android:id="@+id/upi_id"
+        android:layout_marginBottom="20dp"
+        android:hint="upi_id"
+        android:textColor="#615656">
+    </EditText>
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/name"
+    android:layout_below="@+id/upi_id"
+    android:hint="upi_id"
+        android:layout_marginBottom="20dp"
+        android:textColor="#615656">
+    </EditText>
+
+<EditText
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/note"
+android:layout_below="@+id/name"
+android:hint="upi_id"
+android:layout_marginBottom="20dp"
+android:textColor="#615656">
+</EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send"
+        android:layout_below="@id/note"
+        android:hint="submit"
+        >
+    </Button>
+
+</RelativeLayout>

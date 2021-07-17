@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "548133956013",
+    "firebase_url": "https://vegies-45b05.firebaseio.com",
+    "project_id": "vegies-45b05",
+    "storage_bucket": "vegies-45b05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548133956013:android:02606331ec9432f3a65924",
+        "android_client_info": {
+          "package_name": "com.example.vegies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548133956013-0kip0smevoglln6ggn8eva534g4rh52s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vegies",
+            "certificate_hash": "aae8c3e9dba4f760a108294c814fcdb2a73231c9"
+          }
+        },
+        {
+          "client_id": "548133956013-7u3kvc19u4tumuel6bfjvd1tlh7mtnjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ACJLFBWKW6ReWxB6VDhuNW3XWGZaL3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548133956013-7u3kvc19u4tumuel6bfjvd1tlh7mtnjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
